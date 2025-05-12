@@ -10,7 +10,7 @@ const Links = () => {
       <a href="https://github.com/Ashish-Gupta7">
         <FaGithub className="text-white/70 hover:text-white" />
       </a>
-      <a href="www.linkedin.com/in/ashishkumargupta7">
+      <a href="https://www.linkedin.com/in/ashishkumargupta7/">
         <FaLinkedin className="text-white/70 hover:text-white" />
       </a>
       <a href="https://www.instagram.com/iamashishgupta7">

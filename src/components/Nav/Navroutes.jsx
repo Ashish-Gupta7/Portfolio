@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
-import About from "./About";
-import Certificates from "./Certificates";
-import Projects from "./Projects";
+import About from "../Headings/About";
+import Projects from "../Headings/Projects";
+import Certificates from "../Headings/Certificates";
+import Freelancing from "../Headings/Freelancing";
 
 const Navroutes = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -21,6 +22,7 @@ const Navroutes = () => {
       <Route path="/" element={<About />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/certificates" element={<Certificates />} />
+      <Route path="/freelancing" element={<Freelancing />} />
     </Routes>
   );
 };

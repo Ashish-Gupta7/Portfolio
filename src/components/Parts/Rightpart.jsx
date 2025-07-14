@@ -1,5 +1,5 @@
 import React from "react";
-import Navroutes from "./Navroutes";
+import Navroutes from "../Nav/Navroutes";
 
 const Rightpart = () => {
   return (

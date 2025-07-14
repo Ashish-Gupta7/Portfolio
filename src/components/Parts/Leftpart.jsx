@@ -1,7 +1,7 @@
 import React from "react";
-import Nav from "./Nav";
+import Nav from "../Nav/Nav";
 import Links from "./Links";
-import Allnav from "./Allnav";
+import Allnav from "../Nav/Allnav";
 
 const Leftpart = () => {
   return (

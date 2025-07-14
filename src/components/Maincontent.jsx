@@ -1,6 +1,6 @@
 import React from "react";
-import Leftpart from "./Leftpart";
-import Rightpart from "./Rightpart";
+import Leftpart from "./Parts/Leftpart";
+import Rightpart from "./Parts/Rightpart";
 
 const Maincontent = () => {
   return (

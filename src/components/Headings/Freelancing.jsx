@@ -17,7 +17,7 @@ const Freelancing = () => {
   const selected = navItems.find((item) => item.label === selectedService);
 
   return (
-    <div className="freelancing h-full font-[inter] px-6 py-5 text-white/50 tracking-wide flex flex-col gap-5 max-[1024px]:px-0 max-[1024px]:mt-36 max-[640px]:text-sm max-[640px]:mt-28 leading-relaxed">
+    <div className="freelancing h-full font-[inter] px-6 py-5 text-white/50 tracking-wide flex flex-col gap-5 max-[1024px]:px-0 max-[1024px]:mt-36 max-[640px]:text-sm max-[640px]:mt-28 leading-relaxed max-[1024px]:h-[100vh] max-[1024px]:py-0">
       <div className="text-white font-semibold text-sm mb-9 sticky top-0 stickyBg py-3 min-[1024px]:hidden max-[640px]:mb-2">
         FREELANCING
       </div>
@@ -70,9 +70,10 @@ const Freelancing = () => {
       )}
 
       {selected && (
-        <div className="flex h-full relative flex-col justify-between gap-6">
+        <div className="relative h-full flex flex-col gap-6 pb-20">
           {selected.component}
-          <div className="flex justify-end absolute -bottom-11 right-0">
+          {/* Fixed Button */}
+          <div className="fixed bottom-6 right-10 z-50">
             <button
               onClick={() => setSelectedService(null)}
               className="bg-emerald-500/40 text-white px-4 py-2 rounded-full hover:bg-emerald-500/70 transition-all text-sm shadow-md"

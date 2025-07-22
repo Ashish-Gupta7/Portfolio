@@ -31,7 +31,7 @@ const SocialMedia = () => {
             className="bg-white/10 px-6 py-4 rounded-lg shadow-md"
           >
             <p className="text-white/80 text-sm mb-6">{post.title}</p>
-            <div className="mb-2 flex flex-wrap gap-2">
+            <div className="mb-2 flex gap-2 max-[460px]:flex-wrap">
               {post.images.map((image, imgIndex) => (
                 <img
                   key={imgIndex}

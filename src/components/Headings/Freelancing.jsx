@@ -73,7 +73,7 @@ const Freelancing = () => {
         <div className="relative h-full flex flex-col gap-6 pb-20">
           {selected.component}
           {/* Fixed Button */}
-          <div className="fixed bottom-6 right-10 z-50">
+          <div className="fixed bottom-6 right-10 z-50 max-[460px]:right-6">
             <button
               onClick={() => setSelectedService(null)}
               className="bg-emerald-500/40 text-white px-4 py-2 rounded-full hover:bg-emerald-500/70 transition-all text-sm shadow-md"
